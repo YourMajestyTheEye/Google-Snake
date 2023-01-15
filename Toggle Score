@@ -1,0 +1,1 @@
+javascript: window.snake.toggle_score = function() {if(document.getElementsByClassName("MNu4v")[0].style.opacity==0){document.getElementsByClassName("MNu4v")[0].style="opacity:1;visibility:visible;";}else if(document.getElementsByClassName("MNu4v")[0].style.opacity){document.getElementsByClassName("MNu4v")[0].style="opacity:0;visibility:hidden;";};};window.snake.toggle_score();
