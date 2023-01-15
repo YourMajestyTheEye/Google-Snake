@@ -1,0 +1,1 @@
+javascript: req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/ImprovedTimer/main/timer.js'); req.onload = function() { eval(this.responseText + 'snake.good_timer();'); }; req.send();
